@@ -6,7 +6,7 @@ export type WalletState = {
   principal?: string;
   accountId?: string;
   balance?: string;
-  agent?: any; // Add agent for backend integration
+  agent?: any;
 }
 
 // Environment-aware configuration
